@@ -1,2 +1,3 @@
 # MobileSystemStudy
 手机系统方面平时学习积累
+1.手机设置界面PreferenceActivity学习
