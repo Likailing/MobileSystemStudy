@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/project/AvastOfferWall/AvastOfferWall" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/project/ChildrenSpace/ChildrenSpace" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/project/DigitalWellBeing/DigitalWellBeing" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/project/FamilyGuard/FamilyGuard" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/project/FindMyPhoneClient/FindMyPhoneClient" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/project/FindMyPhoneClient/FindMyPhoneClient2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/project/HealthCheck/HealthCheck" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/project/OppoBootReg/OppoBootReg" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/project/SafeCenter/SafeCenter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/project/SafeSdkProxy/SafeSdkProxy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/project/SecurityGuard/SecurityGuard" vcs="Git" />
+  </component>
+</project>
