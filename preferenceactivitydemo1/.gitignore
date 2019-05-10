@@ -1,2 +1,10 @@
 /build
+PreferencesActivity
+介绍：是Android中专门用来实现程序设置界面及参数存储的一个Activity。
+使用：Activity继承PreferenceActivity， PreferenceActivity会帮我们处理选项的读写。
+建议：从Android3.0开始，官方不推荐单独使用PreferenceActivity，而是建议PreferenceActivity与PreferenceFragment结合使用。
+     其中PreferenceActivity负责加载选项配置列表的布局文件，PreferenceFragment负责加载选项配置的布局文件。
+
+实例：PreferenceActivity和PreferenceFragment结合实现选项设置。
+     分工：PreferenceActivity负责加载选项配置列表的布局文件，PreferenceFragment负责加载选项配置的布局文件。
 

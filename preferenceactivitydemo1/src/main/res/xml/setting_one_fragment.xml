@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--EditTextPreference 输入编辑框，会弹出对话框供输入
+        ListPreference 列表选择，弹出对话框供选择
+        CheckBoxPreference:CheckBox选择项
+        Preference：只进行文本显示，需要与其他进行组合使用
+        PreferenceCategory：用于分组
+        PreferenceScreen:PreferenceActivity的根元素
+        RingtonePreference：系统铃声选择
+        MultiSelectListPreference：列表选择（多选）-->
+
+    <!--key 唯一标识
+        title 显示标题（大字体显示）
+        summary 副标题（小字体显示）
+        defaultValue 默认值
+        dependency 附属
+        dialogTitle 弹出对话框的标题
+        entries 列表中显示的值，为一个数组
+        entryValues 列表中实际保存的值-->
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/app_name"
+        android:inputType="textCapWords"
+        android:key="example_text"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/app_name"/>
+
+    <Preference
+        android:summary="嬷嬷搭"
+        android:title="Rain"/>
+</PreferenceScreen>
