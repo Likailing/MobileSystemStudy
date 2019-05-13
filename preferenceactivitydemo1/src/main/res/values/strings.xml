@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">PreferenceActivityDemo1</string>
+
+    <string name="item_one">第一组</string>
+    <string name="item_one_no_tip">不再提醒</string>
+    <string name="item_two">第二组</string>
+    <string name="dialog_title">城市</string>
+    <string name="list_preference_title">列表</string>
+    <string name="switch_preference">免打扰</string>
+
 </resources>

@@ -6,4 +6,9 @@
         android:fragment="com.example.preferenceactivitydemo1.SettingOneFragment"
         android:icon="@mipmap/ic_launcher"
         android:title="@string/app_name"/>
+
+    <header
+        android:fragment="com.example.preferenceactivitydemo1.MyFragment"
+        android:icon="@mipmap/ic_launcher"
+        android:title="@string/app_name"/>
 </preference-headers>

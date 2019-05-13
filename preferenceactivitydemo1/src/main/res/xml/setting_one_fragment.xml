@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!--EditTextPreference 输入编辑框，会弹出对话框供输入
-        ListPreference 列表选择，弹出对话框供选择
-        CheckBoxPreference:CheckBox选择项
-        Preference：只进行文本显示，需要与其他进行组合使用
-        PreferenceCategory：用于分组
-        PreferenceScreen:PreferenceActivity的根元素
-        RingtonePreference：系统铃声选择
-        MultiSelectListPreference：列表选择（多选）-->
+    <!--1.CheckBoxPreference:CheckBox选择项，对应的值的ture或flase
+        2.EditTextPreference 输入编辑框，会弹出对话框供输入
+        3.ListPreference 列表选择，弹出对话框供选择
+        4.Preference：只进行文本显示，需要与其他进行组合使用
+        5.PreferenceCategory：用于分组
+        6.PreferenceScreen:PreferenceActivity的根元素
+        7.RingtonePreference：系统铃声选择
+        8.MultiSelectListPreference：列表选择（多选）
+        9.SwitchPreference：Switch-->
 
     <!--key 唯一标识
         title 显示标题（大字体显示）
@@ -18,17 +19,36 @@
         dialogTitle 弹出对话框的标题
         entries 列表中显示的值，为一个数组
         entryValues 列表中实际保存的值-->
-    <EditTextPreference
-        android:capitalize="words"
-        android:defaultValue="@string/app_name"
-        android:inputType="textCapWords"
-        android:key="example_text"
-        android:maxLines="1"
-        android:selectAllOnFocus="true"
-        android:singleLine="true"
-        android:title="@string/app_name"/>
 
-    <Preference
-        android:summary="嬷嬷搭"
-        android:title="Rain"/>
+    <PreferenceCategory
+        android:title="@string/item_one">
+        <CheckBoxPreference android:checked="true"
+            android:title="@string/item_one_no_tip"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/item_two">
+        <EditTextPreference
+            android:capitalize="words"
+            android:defaultValue="@string/app_name"
+            android:inputType="textCapWords"
+            android:key="example_text"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/app_name"/>
+
+        <ListPreference
+            android:dialogTitle="@string/dialog_title"
+            android:entries="@array/city"
+            android:entryValues="@array/country"
+            android:title="@string/list_preference_title"/>
+
+        <Preference
+            android:summary="嬷嬷搭"
+            android:title="Rain"/>
+
+        <SwitchPreference android:title="@string/switch_preference"/>
+    </PreferenceCategory>
+
 </PreferenceScreen>
