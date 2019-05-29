@@ -1,3 +1,4 @@
 # MobileSystemStudy
 手机系统方面平时学习积累
 1.手机设置界面PreferenceActivity学习
+2.日历添加日程，日程时间到时响铃和弹窗提示

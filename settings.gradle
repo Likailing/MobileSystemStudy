@@ -1,1 +1,1 @@
-include ':app', ':preferenceactivitydemo1'
+include ':app', ':preferenceactivitydemo1', ':calendarreminddemo2'
