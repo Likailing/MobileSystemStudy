@@ -11,7 +11,11 @@ public class SettingOneActivity extends PreferenceActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        /*
+        * 如果要加上布局，布局里面必须有个ListView,且id必须命名为：@android:id/list
+        * 不然会报错：RuntimeException: Your content must have a ListView whose id attribute is 'android.R.id.list'
+        * */
+        setContentView(R.layout.activity_setting_one);
     }
 
     @Override
